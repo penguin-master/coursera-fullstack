@@ -1,0 +1,18 @@
+# IDEA
+.idea
+*.iml
+
+# Exclude basic Eclipse files.
+**/.project
+**/.classpath
+
+# Exclude files in Eclipse .settings folders except for org.eclipse.m2e.core.prefs which contains active profiles
+**/.settings/[!o]*
+**/.settings/org.[!e]*
+**/.settings/org.eclipse.[!m][!2][!e]*
+
+# Exclude generated classes/stuff folders
+**/target/**
+
+# Specific excludes for individual files:
+ads-app/conf/common/text/_dev-override.properties
